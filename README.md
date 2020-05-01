@@ -69,13 +69,13 @@ In order to break the data set into questions, we used a [Miro](https://miro.com
 This repository is divided by Data files and Notebook files.
 **Notebooks**
 
-[Data Cleaning:](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Data_Cleaning) Recommended Order
+Data Cleaning: Recommended Order
 - [Data_Cleaning_1](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_1.ipynb)
 - [Data_Cleaning_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_2.ipynb)
 - [Data_Cleaning_3](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_3.ipynb)
 - [Data_Cleaning_3.2_Amenities_Table](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_3.2_Amenities_Table.ipynb)
 
-[Analysis:](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis) Recommended Order
+Analysis: Recommended Order
 - [Amenity Count vs. Review Score](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis/Amenity_Count_vs_Review_Score)
     - [Amenity_Count_vs_Review_Score_Rating](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Review_Score/Amenity_Count_vs_Review_Score_Rating.ipynb)
     - [Amenity_Count_vs_Review_Score_Rating_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Review_Score/Amenity_Count_vs_Review_Score_Rating-2.ipynb)
@@ -91,7 +91,7 @@ This repository is divided by Data files and Notebook files.
     - [Amenities_Table_US](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/Amenities_Table_US.ipynb)
     - [LA_Amenity_Count_vs_Popularity](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/LA_Amenity_Count_vs_Popularity.ipynb)
 
-[Optional Notebooks:](http://localhost:8888/tree/notebooks/Optional_Notebooks)
+Optional Notebooks:
 - [Data_Cleaning_Extras_(Amenities_Table)](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Data_Cleaning_Extras_(Amenities_Table).ipynb)
 - [Amenity_Count_Predictor](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Amenity_Count_Predictor.ipynb)
 - [Amenity_Count_vs_Price_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Amenity_Count_vs_Price_2.ipynb)
@@ -122,9 +122,10 @@ We tried two different models of regression - polynomial and simple linear with 
 
 
 ## Conclusions
-Our analysis shows there is probably not a strong relationship between amenity county and price or amenity count and review score. We decided there must be additional external factors, such as seasonality for price and individual experience for review score. 
+Our analysis shows there is probably not a strong relationship between the number of amenities and price or the number of amenities and review score. We decided there must be additional external factors, such as seasonality for price and individual experience for review score. 
 
 Additionally, most listings have around 14 amenities, so if you plan on starting to host on Airbnb, 14 amenities should be more than enough to fit in with the average listings.
+
 
 ## Limitations
 We believe that our original Kaggle data set was compiled through web scraping, based on the variation in column content - especially Street, City, and Neighborhood. Because of this, our data may not be completely accurate. Based on the Last Review Score column, we have also found that our data is from 2017.
