@@ -66,16 +66,21 @@ The following workflow was implemented:
 ## Organization
 In order to break the data set into questions, we used a [Miro](https://miro.com/welcomeonboard/AmPzXtQbyMq5ttWYdQmMxnK8IdizbCVX5lQK95cJnG96UEo8EtKUjotrIX85S7hM) board to create a mind map of ideas we could work on. After deciding on the questions to analyze, the different tasks and activities were set up on [Trello](https://trello.com/b/EC0kcusx/module-2-board).
 
-This repository is divided by Data files and Notebook files.
-**Notebooks**
+This repository is divided by Notebook files.
 
-Data Cleaning: Recommended Order
+**Data Cleaning**
+
+Recommended Order:
+
 - [Data_Cleaning_1](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_1.ipynb)
 - [Data_Cleaning_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_2.ipynb)
 - [Data_Cleaning_3](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_3.ipynb)
 - [Data_Cleaning_3.2_Amenities_Table](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_3.2_Amenities_Table.ipynb)
 
-Analysis: Recommended Order
+**Analysis**
+
+Recommended Order:
+
 - [Amenity Count vs. Review Score](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis/Amenity_Count_vs_Review_Score)
     - [Amenity_Count_vs_Review_Score_Rating](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Review_Score/Amenity_Count_vs_Review_Score_Rating.ipynb)
     - [Amenity_Count_vs_Review_Score_Rating_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Review_Score/Amenity_Count_vs_Review_Score_Rating-2.ipynb)
@@ -91,7 +96,8 @@ Analysis: Recommended Order
     - [Amenities_Table_US](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/Amenities_Table_US.ipynb)
     - [LA_Amenity_Count_vs_Popularity](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/LA_Amenity_Count_vs_Popularity.ipynb)
 
-Optional Notebooks:
+**Optional Notebooks**
+
 - [Data_Cleaning_Extras_(Amenities_Table)](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Data_Cleaning_Extras_(Amenities_Table).ipynb)
 - [Amenity_Count_Predictor](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Amenity_Count_Predictor.ipynb)
 - [Amenity_Count_vs_Price_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Amenity_Count_vs_Price_2.ipynb)
