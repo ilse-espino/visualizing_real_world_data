@@ -67,26 +67,55 @@ The following workflow was implemented:
 In order to break the data set into questions, we used a [Miro](https://miro.com/welcomeonboard/AmPzXtQbyMq5ttWYdQmMxnK8IdizbCVX5lQK95cJnG96UEo8EtKUjotrIX85S7hM) board to create a mind map of ideas we could work on. After deciding on the questions to analyze, the different tasks and activities were set up on [Trello](https://trello.com/b/EC0kcusx/module-2-board).
 
 This repository is divided by Data files and Notebook files.
-- Notebooks:
-    a. Data Cleaning: Notebooks used for data cleaning.
-    b. Analysis: Notebooks used for analysis and plotting.
-- Tableau: Tableau files used for visualization of main findings.
+**Notebooks**
+
+[Data Cleaning:](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Data_Cleaning) Recommended Order
+- [Data_Cleaning_1](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_1.ipynb)
+- [Data_Cleaning_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_2.ipynb)
+- [Data_Cleaning_3](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_3.ipynb)
+- [Data_Cleaning_3.2_Amenities_Table](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Data_Cleaning/Data_Cleaning_3.2_Amenities_Table.ipynb)
+
+[Analysis:](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis) Recommended Order
+- [Amenity Count vs. Review Score](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis/Amenity_Count_vs_Review_Score)
+    - [Amenity_Count_vs_Review_Score_Rating](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Review_Score/Amenity_Count_vs_Review_Score_Rating.ipynb)
+    - [Amenity_Count_vs_Review_Score_Rating_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Review_Score/Amenity_Count_vs_Review_Score_Rating-2.ipynb)
+- [Amenity Count vs. Price](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis/Amenity_Count_vs_Price)
+    - [Amenity_Count_vs_Price](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Price/Amenity_Count_vs_Price.ipynb)
+    - [Perfecting_Regression_Model](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Count_vs_Price/Perfecting_Regression_Model.ipynb)
+- [Amenity_Breakdown](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis/Amenity_Breakdown)
+    - [Top_Amenities](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Breakdown/Top_Amenities.ipynb)
+    - [Top_Amenities_Per_Country](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/Amenity_Breakdown/Top_Amenities_Per_Country.ipynb)
+- [USA](https://github.com/ilse-espino/visualizing_real_world_data/tree/master/notebooks/Analysis/USA)
+    - [USA_EDA](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/USA_EDA.ipynb)
+    - [Top_Amenities_US](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/Top_Amenities_US.ipynb)
+    - [Amenities_Table_US](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/Amenities_Table_US.ipynb)
+    - [LA_Amenity_Count_vs_Popularity](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Analysis/USA/LA_Amenity_Count_vs_Popularity.ipynb)
+
+[Optional Notebooks:](http://localhost:8888/tree/notebooks/Optional_Notebooks)
+- [Data_Cleaning_Extras_(Amenities_Table)](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Data_Cleaning_Extras_(Amenities_Table).ipynb)
+- [Amenity_Count_Predictor](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Amenity_Count_Predictor.ipynb)
+- [Amenity_Count_vs_Price_2](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/Amenity_Count_vs_Price_2.ipynb)
+- [US_Cities_DataframeDa](https://github.com/ilse-espino/visualizing_real_world_data/blob/master/notebooks/Optional_Notebooks/US_Cities_Dataframe.ipynb)
 
 Since the data had large file sizes, we created a [Google Drive Folder](https://drive.google.com/drive/folders/1ssziRVpxfZZzppWxBJCF7bg-P9GbS0Po?usp=sharing) in which you may find all the csv and pickle files used for each step. In the Drive, you can also find our final presentation with the key findings.
 
 ## Analysis
 **Amenity Count**
+
 By looking at the descriptive statistics for amenity count, it was found out that the median was 15 amenities and that only 25% of the listings had more than 20 amenities, with the maximum at 87. When registering a new listing, AirBnB has an amenities checklist consisting of 13 expected amenities and 5 safety amenities. This correlates to the findings that at least 50% of the listings have 15 amenities, which may be those initially suggested by AirBnB.
 
 **Amenity Count vs Review Score**
+
 When plotting amenity count vs average review score, a positive correlation can be appreciated going from 0 to 30 amenities. Afterwards, the relationship becomes less clear. This indicates that after 30 amenities, the review scores do not necessarily increase. Looking at the descriptive statistics, we decided to limit our scope to listings with 30 amenities or less. This accounted for 97.5% of the original data and limited our outliers.
 
 Although there seems to be a clear relationship between amenity count and average rating for up to 30 amenities, there is still a lot of variation between them, giving an R2 value of 0.24.
 
 **Amenity Count vs Price**
+
 In order to compare different countries, we normalized the prices by creating a new column that computed the individual listing price divided by the average price in each country. Afterwards, the number of amenities was plotted against the average normalized price for each amenity. This showed a positive trend, estimating that the higher the number of amenities, the higher was the increase in price. As stated before, this trend was mostly clear for 97.5% of the listings, which have less than or equal to 30 amenities, so a cut off was made for up to 30 amenities.
 
 **Regression Models**
+
 We tried two different models of regression - polynomial and simple linear with constants.
     1. Polynomial - We created up to a 5-factor polynomial regression; however, we decided that this model was overfit because we only have a sample. We then moved on to a more simple linear regression.
     2. Linear Regression with constants - We created a linear regression model that included a number of constants (Country Dummies, GDP, Tourism, Size of the listing, and Property/Room Type). We found that this was the best fit model - but after plotting the residuals, we found that we are either missing important independent variables or are encountering an interaction term. Therefore we could not use the coefficients or p-values for further analysis
