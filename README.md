@@ -1,7 +1,7 @@
 # AirBnB Amenities
 ### The impact of price and review score.
 
-*[Emily Horton, Ilse Espino Barros, Thomas Bentler]*
+*Emily Horton, Ilse Espino Barros, Thomas Bentler*
 
 *[Data Analytics, Berlin & 01-May-2020]*
 
@@ -135,6 +135,8 @@ Additionally, most listings have around 14 amenities, so if you plan on starting
 
 ## Limitations
 We believe that our original Kaggle data set was compiled through web scraping, based on the variation in column content - especially Street, City, and Neighborhood. Because of this, our data may not be completely accurate. Based on the Last Review Score column, we have also found that our data is from 2017.
+The price is not completely defined as per night, week or month. For this study, we assumed that the data included daily prices.
+
 
 ## Links
 
